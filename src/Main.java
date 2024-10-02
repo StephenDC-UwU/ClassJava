@@ -96,7 +96,7 @@ public class Main {
 //        int result = Math.round(a+b+c+d+e);
 //
 //        System.out.println(result);
-        /*Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         //Alumno por aulas
         int N = sc.nextInt();
         //aulas por planta
@@ -106,10 +106,11 @@ public class Main {
         //Matriculados total
         int M = sc.nextInt();
 
-        int calcularTotalAlumnos = ((N * A) * P);
+        int capacidadTotalAlumnos = ((N * A) * P);
 
-        if (calcularTotalAlumnos>0) {
-            int alumnosSobrantes = M%calcularTotalAlumnos;
+        if (capacidadTotalAlumnos>0) {
+
+            int alumnosSobrantes = M%capacidadTotalAlumnos;
             if ( alumnosSobrantes > 0) {
                 int X = alumnosSobrantes/(N*A);
                 if (alumnosSobrantes%(N*A) != 0) {
@@ -126,7 +127,7 @@ public class Main {
             }
         }else{
             System.out.println("Error dades introduides no valides");
-        }*/
+        }
 
        /* Scanner sc = new Scanner(System.in);
 
@@ -200,7 +201,7 @@ public class Main {
                 System.out.println("Dia no valid");
         }*/
 
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         boolean hisFamiliaNumerosa = sc.nextBoolean();
         boolean hisMatriculaHonor = sc.nextBoolean();
         boolean hisMonoparentalNormal = sc.nextBoolean();
@@ -227,7 +228,11 @@ public class Main {
         } else if (!hisMatriculaCompleta && numeroUf<17.6) {
             precioBase = numeroUf*25;
             System.out.println(precioBase);
-        }
+        }*/
+
+
+
+
 
     }
 
