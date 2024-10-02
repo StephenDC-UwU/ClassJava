@@ -200,26 +200,26 @@ public class Main {
                 System.out.println("Dia no valid");
         }*/
 
-        Scanner sc = new Scanner(System.in);
-        boolean hisFamiliaNumerosa = sc.nextBoolean();
-        boolean hisMatriculaHonor = sc.nextBoolean();
-        boolean hisMonoparentalNormal = sc.nextBoolean();
-        boolean hisMonoparentalEspecial = sc.nextBoolean();
-        int edadAlumno = sc.nextInt();
-        boolean hisMatriculaCompleta = sc.nextBoolean();
-        int numeroUf = sc.nextInt();
-
-        int precioBase = 440;
-        if (hisFamiliaNumerosa) {
-            precioBase = precioBase/2;
-            if (hisMatriculaHonor) {
-                precioBase = precioBase-80;
-                if (hisMonoparentalNormal) {
-
-                }
-
-            }
-        }
+//        Scanner sc = new Scanner(System.in);
+//        boolean hisFamiliaNumerosa = sc.nextBoolean();
+//        boolean hisMatriculaHonor = sc.nextBoolean();
+//        boolean hisMonoparentalNormal = sc.nextBoolean();
+//        boolean hisMonoparentalEspecial = sc.nextBoolean();
+//        int edadAlumno = sc.nextInt();
+//        boolean hisMatriculaCompleta = sc.nextBoolean();
+//        int numeroUf = sc.nextInt();
+//
+//        int precioBase = 440;
+//        if (hisFamiliaNumerosa) {
+//            precioBase = precioBase/2;
+//            if (hisMatriculaHonor) {
+//                precioBase = precioBase-80;
+//                if (hisMonoparentalNormal) {
+//
+//                }
+//
+//            }
+//        }
 
 }
 

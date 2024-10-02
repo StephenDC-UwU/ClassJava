@@ -156,7 +156,7 @@ public class MainClassRoom {
         int edadUser = sc.nextInt();
         int numeroViajes = sc.nextInt();
 
-        if (edadUser>=25 && edadUser<=60){
+        if (edadUser>=25 && edadUser<60){
             if (numeroViajes==1){
                 System.out.println("Bitllet senzill");
             } else if (numeroViajes>1 && numeroViajes<10) {
@@ -167,16 +167,19 @@ public class MainClassRoom {
         } else if (edadUser<25 && edadUser>16) {
             if (numeroViajes==1){
                 System.out.println("Bitllet senzill");
-            } else if (numeroViajes>1 && numeroViajes<10) {
+            } else if (numeroViajes>1 && numeroViajes<=10) {
                 System.out.println("T-casual");
-            } else if (numeroViajes>10) {
+            } else if (numeroViajes>10 && numeroViajes<=30) {
                 System.out.println("T-usual");
             } else {
                 System.out.println("T-jove");
             }
-
         } else if(edadUser>=60){
-
+            System.out.println("Targeta Rosa");
+        } else if (edadUser>=4) {
+            System.out.println("T-16");
+        } else {
+            System.out.println("Introducir una edad correcta");
         }
 
     }
