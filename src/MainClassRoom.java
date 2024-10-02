@@ -152,7 +152,7 @@ public class MainClassRoom {
             }
         }*/
 
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         int edadUser = sc.nextInt();
         int numeroViajes = sc.nextInt();
 
@@ -180,7 +180,9 @@ public class MainClassRoom {
             System.out.println("T-16");
         } else {
             System.out.println("Introducir una edad correcta");
-        }
+        }*/
+
+
 
     }
 }
