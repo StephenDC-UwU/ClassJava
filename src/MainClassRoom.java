@@ -156,15 +156,15 @@ public class MainClassRoom {
         int edadUser = sc.nextInt();
         int numeroViajes = sc.nextInt();
 
-        if (edadUser>=25 && edadUser<60){
+        if (edadUser>=25 && edadUser<=60 && numeroViajes>0){
             if (numeroViajes==1){
                 System.out.println("Bitllet senzill");
-            } else if (numeroViajes>1 && numeroViajes<10) {
+            } else if (numeroViajes>1 && numeroViajes<=10) {
                 System.out.println("T-casual");
             } else if (numeroViajes>10) {
                 System.out.println("T-usual");
             }
-        } else if (edadUser<25 && edadUser>16) {
+        } else if (edadUser<25 && edadUser>16 && numeroViajes>0) {
             if (numeroViajes==1){
                 System.out.println("Bitllet senzill");
             } else if (numeroViajes>1 && numeroViajes<=10) {
@@ -174,12 +174,12 @@ public class MainClassRoom {
             } else {
                 System.out.println("T-jove");
             }
-        } else if(edadUser>=60){
+        } else if(edadUser>60 && numeroViajes>0){
             System.out.println("Targeta Rosa");
-        } else if (edadUser>=4) {
+        } else if (edadUser>=4 && edadUser<=16 && numeroViajes>0) {
             System.out.println("T-16");
         } else {
-            System.out.println("Introducir una edad correcta");
+            System.out.println("Introducir una edad correcta o No has ingresado ningun viaje");
         }*/
 
         /*Scanner sc = new Scanner(System.in);

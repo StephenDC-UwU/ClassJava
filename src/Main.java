@@ -96,7 +96,7 @@ public class Main {
 //        int result = Math.round(a+b+c+d+e);
 //
 //        System.out.println(result);
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         //Alumno por aulas
         int N = sc.nextInt();
         //aulas por planta
@@ -127,7 +127,7 @@ public class Main {
             }
         }else{
             System.out.println("Error dades introduides no valides");
-        }
+        }*/
 
        /* Scanner sc = new Scanner(System.in);
 
